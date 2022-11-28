@@ -1,12 +1,12 @@
 # LUAshell
 This is a script, which can create for you shell-command-execution-scripts coded and hidden as lua code.
 
-## Requirements
+## Requirements for the script
 ```md
 + Lua 5.4
 ```
 
-## How to use
+## How to use the script
 You set the command which should be executed into the variable `one_liner_command` and then you run the script with lua 5.4.
 ```lua
 --[[
@@ -26,6 +26,22 @@ print(shell1)
 ## Common questions
 ### How to install Lua?
 https://www.youtube.com/watch?v=QQxhoI-m55k 
+
+## How the abuseable function works, which is being used here
+Lua has a function called execute in it's function package os with which shell commands can be executed.
+*-> Example:* `os.execute("msg * all")`
+
+## Possibel Attacks which can be done with this abuseable function
+```md
++ HTA Attack
++ Rundll32 Attack
++ Regsvr32 Attack
++ msiexec Attack
++ Wmic Attack
++ MSbuild Attack
++ Powershell Attack
++ ...
+```
 
 # ! I'm not responsible for any damage done with this code generation tool !
 ## MIT License
