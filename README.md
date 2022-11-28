@@ -8,13 +8,11 @@ This is a script, which can create for you shell-command-execution-scripts coded
     Example Use NewShell
 ]]
 
-local one_liner_command = "msg * hi"
+local one_liner_command = "msg * hi" --[[ The one line command which should be executed ]]
 
-local shell1 = mod:NewShell(one_liner_command)
+local shell1 = mod:NewShell(one_liner_command) --[[ Generation of the code in lua ]]
 mod.WriteFile("output.lua",shell1)
 print(shell1)
-
-
 ```
 
 ## Images
