@@ -44,7 +44,7 @@ Lua has a function called execute in it's function package os with which shell c
 + ...
 ```
 
-## How to become save before LUAshell attacks
+## How to securely run suspicious scripts
 For example you can just put this code at the start of the code which you want to test a script.
 ```lua
 os.execute = function(value)
