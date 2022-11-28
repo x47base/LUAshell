@@ -1,4 +1,4 @@
-# LUAshell
+# 🔥 LUAshell
 This is a script, which can create for you shell-command-execution-scripts coded and hidden as lua code.
 
 ## Requirements for the script
