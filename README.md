@@ -1,4 +1,4 @@
-# 🔥 LUAshell [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/x47base/issues) [![HitCount](http://hits.dwyl.com/x47base/LUAshell.svg)](http://hits.dwyl.com/x47base/LUAshell) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+# 🔥 LUAshell [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/x47base/issues) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![HitCount](http://hits.dwyl.com/x47base/LUAshell.svg)](http://hits.dwyl.com/x47base/LUAshell) 
 
 This is a script, which can create for you shell-command-execution-scripts coded and hidden as lua code.
 
