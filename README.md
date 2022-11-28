@@ -23,5 +23,7 @@ print(shell1)
 ## Release
 Comming Soon
 
-## License
-MIT
+
+# ! I'm not responsible for any damage create with this method !
+## MIT License
+
