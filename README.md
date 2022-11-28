@@ -1,8 +1,13 @@
 # LUAshell
 This is a script, which can create for you shell-command-execution-scripts coded and hidden as lua code.
 
-## How to use
+## Requirements
+```md
++ Lua 5.4
+```
 
+## How to use
+You set the command which should be executed into the variable `one_liner_command` and then you run the script with lua 5.4.
 ```lua
 --[[
     Example Use LUAshell
