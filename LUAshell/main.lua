@@ -1,5 +1,7 @@
 local mod = {}
 
+mod._VERSION = 1.2
+
 mod.GetRandomTableItem = function(table)return table[math.random(1,#table)];end;
 mod.RandomBinary = function(length)local length=length or 16;local a={"0","1"};local b="";for c=1,length do b=b..mod.GetRandomTableItem(a)end;return b;end;
 mod.RandomCharacters = function(length)local length=length or 16;local a={"a","A","b","B","c","C","d","D","e","E","f","F","g","G","h","H","i","I","j","J","k","K","l","L","m","M","n","N","o","O","p","P","q","Q","r","R","s","S","t","T","u","U","v","V","w","W","x","X","y","Y","z","Z","1","2","3","4","5","6","7","8","9","0",'α','τ','Φ','⌠','⌡','÷','≈','√','ⁿ','²','■','Å','É','Æ','¢','£','₧','¥','ƒ'};local b="";for c=1,length do b=b..mod.GetRandomTableItem(a)end;return b;end;
