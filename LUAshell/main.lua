@@ -85,10 +85,10 @@ end
     Example Use LUAshell
 ]]
 
-local one_liner_command = [[msg * First Shell Execution
+local command = [[msg * First Shell Execution
 msg * Second Shell Execution
 ]]--[[ Here you can add the commands which should be executed. ! Each command must be on a new line ! ]]
 
-local shell1 = mod:NewShell(one_liner_command) --[[ Generation of the code in lua ]]
+local shell1 = mod:NewShell(command) --[[ Generation of the code in lua ]]
 mod.WriteFile("output.lua",shell1) --[[ Saving the generated code to output.lua file ]]
 print(shell1) --[[ printing the generated code ]]
