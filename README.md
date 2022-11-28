@@ -24,6 +24,6 @@ print(shell1)
 Comming Soon
 
 
-# ! I'm not responsible for any damage create with this method !
+# ! I'm not responsible for any damage done with this code generation tool !
 ## MIT License
 
