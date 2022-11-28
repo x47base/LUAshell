@@ -10,7 +10,7 @@ This is a script, which can create for you shell-command-execution-scripts coded
 ## Update V1.2
 ```md
 + Encrypted Hiding
-+ Fake Variables and Functions
++ Fake Variables & Functions
 + Dump (Globals, Variables, Functions)
 + Support for multiple lines of commands
 ```
