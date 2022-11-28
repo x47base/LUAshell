@@ -2,12 +2,20 @@
 
 This is a script, which can create for you shell-command-execution-scripts coded and hidden as lua code.
 
-## Requirements for the script
+## Requirements
 ```md
 + Lua 5.4
 ```
 
-## How to use the script
+## Update V1.2
+```md
++ Encrypted Hiding
++ Fake Variables and Functions
++ Dump (Globals, Variables, Functions)
++ Support for multiple lines of commands
+```
+
+## How to use
 You set the command which should be executed into the variable `one_liner_command` and then you run the script with lua 5.4.
 ```lua
 --[[
