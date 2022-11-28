@@ -14,11 +14,13 @@ You set the command which should be executed into the variable `one_liner_comman
     Example Use LUAshell
 ]]
 
-local one_liner_command = "msg * hi" --[[ The one line command which should be executed ]]
+local command = [[msg * First Shell Execution
+msg * Second Shell Execution
+]]--[[ Here you can add the commands which should be executed. ! Each command must be on a new line ! ]]
 
-local shell1 = mod:NewShell(one_liner_command) --[[ Generation of the code in lua ]]
-mod.WriteFile("output.lua",shell1)
-print(shell1)
+local shell1 = mod:NewShell(command) --[[ Generation of the code in lua ]]
+mod.WriteFile("output.lua",shell1) --[[ Saving the generated code to output.lua file ]]
+print(shell1) --[[ printing the generated code ]]
 ```
 
 ## Images
