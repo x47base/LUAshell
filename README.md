@@ -26,8 +26,6 @@ print(shell1) --[[ printing the generated code ]]
 ## Images
 ![image](https://user-images.githubusercontent.com/72315013/204329777-fdf6b74d-514b-46d0-a6a3-e0a470bc4b20.png)
 
-![image](https://user-images.githubusercontent.com/72315013/204329845-a4d76047-ec62-4ec2-a47d-aff46d1650b0.png)
-
 
 ## Common questions
 ### How to install Lua?
