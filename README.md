@@ -47,13 +47,16 @@ Lua has a function called execute in it's function package os with which shell c
 ## How to become save before LUAshell attacks
 For example you can just put this code at the start of the code which you want to test a script.
 ```lua
-os.execute = print or error
-```
-```lua
 os.execute = function(value)
     return error("[POSSIBLE-MALICIOUS-EXECUTION] Value: "..value)
 end
 ```
+or
+```lua
+x,y = os.execute, error or print
+os.execute, error = y,x
+```
+
 
 # ! I'm not responsible for any damage done with this code generation tool !
 ## MIT License
