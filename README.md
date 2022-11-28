@@ -1,5 +1,5 @@
 # 🔥 LUAshell
-## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/x47base/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/x47base/issues)
 
 This is a script, which can create for you shell-command-execution-scripts coded and hidden as lua code.
 
