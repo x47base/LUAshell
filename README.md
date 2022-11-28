@@ -25,7 +25,7 @@ print(shell1)
 
 ## Common questions
 ### How to install Lua?
-Here is a guide how to install lua 5.4: https://www.youtube.com/watch?v=QQxhoI-m55k 
+https://www.youtube.com/watch?v=QQxhoI-m55k 
 
 # ! I'm not responsible for any damage done with this code generation tool !
 ## MIT License
