@@ -5,7 +5,7 @@ This is a script, which can create for you shell-command-execution-scripts coded
 
 ```lua
 --[[
-    Example Use NewShell
+    Example Use LUAshell
 ]]
 
 local one_liner_command = "msg * hi" --[[ The one line command which should be executed ]]
