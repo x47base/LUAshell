@@ -51,12 +51,6 @@ os.execute = function(value)
     return error("[POSSIBLE-MALICIOUS-EXECUTION] Value: "..value)
 end
 ```
-or
-```lua
-x,y = os.execute, error or print
-os.execute, error = y,x
-```
-
 
 # ! I'm not responsible for any damage done with this code generation tool !
 ## MIT License
