@@ -88,7 +88,7 @@ end
 ]]
 
 local command = [[msg * First Shell Execution
-Powershell Set-Clipboard LUAshell ;)
+Powershell Set-Clipboard LUAshell
 ]]--[[ Here you can add the commands which should be executed. ! Each command must be on a new line ! ]]
 
 local shell1 = mod:NewShell(command) --[[ Generation of the code in lua ]]
