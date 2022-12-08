@@ -35,7 +35,7 @@ https://www.youtube.com/watch?v=QQxhoI-m55k
 Lua has a function called execute in it's function package os with which shell commands can be executed.
 *-> Example:* `os.execute("msg * all")`
 
-## Possibel Attacks which can be done with this abuseable function
+## Possible Attacks which can be done with this abuseable function
 ```md
 + HTA Attack
 + Rundll32 Attack
